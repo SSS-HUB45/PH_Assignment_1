@@ -4,7 +4,6 @@ body{
 }
 
 .bg{
-    /*background-image: url("pictures/flood1.jpg");*/
     background: linear-gradient(rgba(0,130,170,.5), black), url('pictures/flood1.jpg');
     padding-top: 200px;
     padding-bottom: 250px;
@@ -23,6 +22,9 @@ body{
 .bg2 h1{
     color: black;
     font-size: 50px;
+    text-align: center;
+}
+.bg2 ul{
     text-align: center;
 }
 .bg2 p{
@@ -116,19 +118,16 @@ input {
     padding-left: 65px;
 }
 .nf{
-    text-align: center;
-
-    
+    text-align: center;    
 }
 .ph{
-    color: orangered;
-    font-size: 40px;
+    font-size: 35px;
 }
 .img2 img{
     width: 75%;
     height: 95%;
     padding-top: 5%;
-    padding-right: 69%;
+    padding-right: 9%;
 }
 .ft{
     background-color: #0B0020;
@@ -144,13 +143,13 @@ input {
 .ft p{
     color: white;
 }
-#em{
+.em{
     text-align: center;
     background-color: lightsalmon;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 65px;
-    padding-bottom: 65px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 85px;
+    padding-bottom: 85px;
 }
 .imp{
     background-color: lightgray;
