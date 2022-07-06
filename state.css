@@ -17,7 +17,17 @@ body{
 }
 .bg p{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+.bg2 h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+.bg2 p{
+    color: black;
+    font-size: 20px;
     text-align: center;
 }
 .b{
@@ -44,8 +54,13 @@ body{
 }
 .flex{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     padding-left: 300px;
+}
+.flex1{
+    display: flex;
+    margin-bottom: 60px;
+    padding-left: 10px;
 }
 #iii{
     border-left: 3px solid red;
@@ -60,6 +75,94 @@ body{
     padding-left: 3px;
     padding-right: 3px;
 }
+.ss2{
+    width: 25%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+#dp1{
+    background-color: lightsteelblue;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#dp2{
+    background-color: lightpink;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#dp3{
+    background-color: lightsalmon;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
 .ss1 .bd3{
     color: red;
+}
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+    font-size: 30px;
+    padding-left: 65px;
+}
+.nf{
+    text-align: center;
+
+    
+}
+.ph{
+    color: orangered;
+    font-size: 40px;
+}
+.img2 img{
+    width: 75%;
+    height: 95%;
+    padding-top: 5%;
+    padding-right: 69%;
+}
+.ft{
+    background-color: #0B0020;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.ft h1{
+    font-size: 35px;
+    color: lightcoral;
+    font-family: 'Lobster', cursive;
+}
+.ft p{
+    color: white;
+}
+#em{
+    text-align: center;
+    background-color: lightsalmon;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+.imp{
+    background-color: lightgray;
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+#sub{
+    font-size: 28px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 10px;
 }
